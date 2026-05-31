@@ -41,7 +41,7 @@ In ASCII Format, we send `00110100` first [4], and then `01000010` next [B].
 
 In RTU Format, we send `01001011` once, which translates to 4B in hexadecimal code.
 
-As we can see, for every byte of data, ASCII Format transmits 2 bytes of data, whereas RTU Format transmits 1 byte of data. Hence, we sttribute character density, better throughput and lower bandwidth consumption to the ModBus RTU Format over the ModBus ASCII Format.
+As we can see, for every byte of data, ASCII Format transmits 2 bytes of data, whereas RTU Format transmits 1 byte of data. Hence, we attribute character density, better throughput and lower bandwidth consumption to the ModBus RTU Format over the ModBus ASCII Format.
 
 ## Comparison
 
